@@ -1,0 +1,302 @@
+body{
+    background-image: url(img/pixel_weave.png);
+}
+@font-face {
+    font-family: webfont;
+    src: url(fonts/fontawesome-webfont.woff);
+}
+#navcontfluid{
+    border-bottom: solid 1px #D6D6D6;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 8889887987;
+    background-image: url(img/pixel_weave.png);
+    
+}
+#logo a{
+    font-size: 27px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+   
+    
+}
+#logo{
+    margin-top: 20px;
+}
+.navbar{
+    background-color: transparent !important;
+    border: none !important;
+    color: black;
+    margin-top: 15px;
+   
+}
+.navbar ul li a{
+    font-size: 17px;
+    color: black !important;
+   
+}
+
+/* carousel div start*/
+#crsl{
+    border: solid 2px #D6D6D6;
+    
+    
+}
+#carouselmargin{
+   padding-top: 100px;
+}
+.carousel-caption h4{
+    font-size: 20px;
+    padding: 25px 20px;
+    background-color: rgba(1, 1, 1, 0.6);
+    line-height: 32px;
+    font-weight: bold;
+}
+/* carousel divend */
+
+/* lorem ipsum start */
+.box{
+    width: 110px;
+    height: 110px;
+    background-color: #4bbabe;
+    transform: rotateZ(45deg);
+    margin-left: 120px;
+    
+}
+
+.loremipsum i{
+    font-size:50px;
+    color: aliceblue;
+    position: relative;
+    display: block;
+    margin-top: -90px;
+    margin-left: 150px;
+}
+.boxtext h1{
+    margin-top: 80px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.boxtext p{
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #333;
+    font-family: arial;
+    
+}
+/* lorem ipsum end */
+
+/* project div start */
+.redspn{
+    color: red;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center !important; 
+}
+
+/* project div end */
+
+/* our project start */
+#ourproject h4{
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #31708f;
+    padding-top: 10px;
+    
+}
+#ourproject{
+    background-color: #d9edf7;
+    text-align: center;
+    padding: 10px;
+}
+#ourproject p{
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+    color: #31708f;
+    padding-left: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seeproject{
+    text-align: center;
+}
+.seeproject h3{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.seeproject p{
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: arial;
+}
+.seeproject img{
+    float: left;
+    margin-top: 50px;
+}
+.seeprojectlink a{
+    color: #90F;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+   
+    
+}
+.seeprojectlink {
+    margin-top: 80px !important;
+}
+.seeprojectlink a:hover{
+    filter: brightness(120%);
+    
+}
+/* our project end */
+
+/* who we are start */
+.persons{
+    text-align: center;
+    padding: 10px;
+}
+.persons img{
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    margin-left: 80px;
+}
+.persons a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 900 !important;
+    
+}
+.persons p{
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+    font-size:14px;
+    font-family: arial;
+}
+#ourproject2 h4{
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #3c763d;
+    padding-top: 10px;
+}
+#ourproject2 p{
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+    color: #3c763d;
+    padding-left: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ourproject2{
+    background-color: #dff0d8;
+    text-align: center;
+    padding: 10px;
+}
+/* who we are end */
+
+/* map start */
+#ourlocation{
+    background-color: #f2dede;
+    text-align: center;
+    padding: 15px;
+}
+#ourlocation h4{
+    font-size:20px;
+    padding-bottom: 10px;
+    color: #a94442;
+    line-height: 40px;
+    font-size: 22px;
+    /* font-weight: 900; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -7px;
+}
+#ourlocation p{
+    color: #a94442;
+    line-height: 30px;
+    padding-bottom: 15px; 
+}
+.formcontr{
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+.formemail{
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    
+}
+#textareaa{
+    width: 100%;
+    height:100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#map{
+    padding-bottom: 80px;
+}
+/* map end */
+#lastcontfluid{
+    border-top: solid 1px #ccc;
+    
+}
+#lastcontfluid p{
+    text-align: right;
+    padding: 20px 50px 100px 50px;
+    font-size: 16px;
+}
+@media only screen and (max-width: 580px){
+    .navbar-toggle{
+        margin-top: -55px !important;
+        
+    }
+    .carousel-caption h4{
+        font-size: 14px;
+        padding: 20px 15px;
+        background-color: rgba(1, 1, 1, 0.6);
+        line-height: 32px;
+        font-weight: bold;
+    }
+    .box{
+        
+        margin-left: 180px !important;
+        
+    }
+    .loremipsum i{
+        margin-left: 210px !important;
+    }
+    .formemail{
+        margin-top: 20px !important;
+    }
+    #carouselmargin{
+        padding-top: 100px !important; 
+     }
+    .navbar{
+        min-height: 0px;
+    }
+}
